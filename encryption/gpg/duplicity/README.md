@@ -20,7 +20,7 @@ duplicity file://docsbackup docsrestore
 duplicity --time 3D file://docsbackup docsrestore
 ```
 
-## restore of 3 days of particular file
+## restore of 3 days old version of a specific file
 
 ```bash
 duplicity --time 3D --file-to-restore private/eff.txt file://docsbackup docsrestore
