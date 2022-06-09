@@ -11,13 +11,13 @@ wipefs -a /dev/sdw1
 OR
 
 ```bash
-cat /dev/zero >/dev/sdw1
+cat /dev/zero > /dev/sdw1
 ```
 
 ### OR use a loop block device
 ```bash
 dd if=/dev/zero of=/tmp/loopdev bs=1k count=102400
-losetup -f              # to know available loop device
+losetup -f
 losetup /dev/loop0 /tmp/loopdev
 ```
 
