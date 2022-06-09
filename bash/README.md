@@ -7,50 +7,50 @@
 
 ## essentials
 
-`C-a` - to start of line
-`C-e` - to end of line
-`C-r` - search history backwards
+ * `C-a` - to start of line
+ * `C-e` - to end of line
+ * `C-r` - search history backwards
 
 ## good to know
 
-`C-g` - escape from history searching mode
-`C-l` - clear the screen
-`C-k` - delete from cursor to end of line
-`C-u` - delete from cursor to start of line
-`C-w` - delete from cursor to start of word
-`C-y` - paste (from buffer)
-`C-c` - terminate the command
-`C-z` - suspend the command
+ * `C-g` - escape from history searching mode
+ * `C-l` - clear the screen
+ * `C-k` - delete from cursor to end of line
+ * `C-u` - delete from cursor to start of line
+ * `C-w` - delete from cursor to start of word
+ * `C-y` - paste (from buffer)
+ * `C-c` - terminate the command
+ * `C-z` - suspend the command
 
 ## baby steps
 
-`C-f` - forward one char
-`C-b` - backward one char
-`C-d` - delete char under cursor
-`C-h` - delete char before cursor
-`C-t` - swap char under cursor with previous one
+ * `C-f` - forward one char
+ * `C-b` - backward one char
+ * `C-d` - delete char under cursor
+ * `C-h` - delete char before cursor
+ * `C-t` - swap char under cursor with previous one
 
 ## bigger steps
 
-`M-b` - backward one word
-`M-f` - forward one word
-`M-d` - delete to end of word
-`M-c` - capitalize under cursor and move to end of word
-`M-u` - uppercase from cursor to end of word
-`M-l` - lowercase from cursor to end of word
-`M-t` - swap current word with previous word
+ * `M-b` - backward one word
+ * `M-f` - forward one word
+ * `M-d` - delete to end of word
+ * `M-c` - capitalize under cursor and move to end of word
+ * `M-u` - uppercase from cursor to end of word
+ * `M-l` - lowercase from cursor to end of word
+ * `M-t` - swap current word with previous word
 
 ## the accident
 
-`C-s` - stop the output of the screen
-`C-q` - resume the output of the screen
+ * `C-s` - stop the output of the screen
+ * `C-q` - resume the output of the screen
 
 ## protip
 
-`C-x C-e` - edit in `EDITOR` the current command
-`C-p` - rewind
-`C-n` - forward
-`C-o` - replay and forward
+ * `C-x C-e` - edit in `EDITOR` the current command
+ * `C-p` - rewind
+ * `C-n` - forward
+ * `C-o` - replay and forward
 
 ## capture and edit previous command in `EDITOR` with `fc`
 
