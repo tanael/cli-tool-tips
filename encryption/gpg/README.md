@@ -4,28 +4,32 @@
 
 ### what you can do with GPG, 4 central ideas:
 
-Generation of keypairs, randomly-generated and mathematically linked pairs of
+[Source article](https://blog.sanctum.geek.nz/gnu-linux-crypto-gnupg-keys/)
+
+> Generation of keypairs, randomly-generated and mathematically linked pairs of
 files, one of which is kept permanently secret (the private key) and one of
 which is published (the public key). This is the basis of asymmetric key
 cryptography.
 
-Managing keys, both your own public and private key, along with other people's
+> Managing keys, both your own public and private key, along with other people's
 public keys, so that you can verify others' messages and files, or encrypt them
 so that only those people can read them. This might include publishing your
 public key to online keyservers, and getting people to sign it to confirm that
 the key is really yours.
 
-Signing files and messages with your private key to enable others to verify
+> Signing files and messages with your private key to enable others to verify
 that a file or message was authored or sighted by you, and not edited in
 transmission over untrusted channels like the internet. The message itself
 remains readable to everybody.
 
-Encrypting files and messages with other people's public keys. so that only
+> Encrypting files and messages with other people's public keys. so that only
 those people can decrypt and read them with their private keys. You can also
 sign such messages with your own private key so that people can verify that it
 was sent by you.
 
 ### remind me what a subkey is
+
+[Source document](https://wiki.debian.org/Subkeys)
 
 Subkeys are like the normal keys, except they're bound to a master key pair. A
 subkey can be used for signing or for encryption. The really useful part of
